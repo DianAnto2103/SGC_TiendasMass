@@ -1,0 +1,26 @@
+{% extends 'lecciones/base.html' %}
+
+{% block title %}{{ categoria }} - SGC Mass{% endblock %}
+
+{% block page_title %}{{ categoria }}{% endblock %}
+{% block page_subtitle %}Lecciones documentadas en esta categoría{% endblock %}
+
+{% block content %}
+
+<button class="back-button" onclick="location.href='/'">
+    <i class="fas fa-arrow-left"></i> Volver al Dashboard
+</button>
+
+<div class="lessons-grid">
+    {% for leccion in lecciones %}
+    <div class="lesson-card" onclick="location.href='/leccion/{{ leccion.id }}/'">
+        <span class="lesson-category" style="background: #FFF3E0; color: #E67E22;">{{ leccion.categoria }}</span>
+        <h4 class="lesson-title">{{ leccion.titulo|truncatechars:50 }}</h4>
+        <div class="lesson-date"><i class="far fa-calendar-alt"></i> {{ leccion.fecha_creacion|date:"d/m/Y" }}</div>
+    </div>
+    {% empty %}
+    <p style="grid-column: 1/-1; text-align: center; padding: 40px;">No hay lecciones en esta categoría.</p>
+    {% endfor %}
+</div>
+
+{% endblock %}

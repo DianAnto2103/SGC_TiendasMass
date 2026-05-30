@@ -1,0 +1,45 @@
+{% extends 'lecciones/base.html' %}
+
+{% block title %}{{ leccion.titulo }}{% endblock %}
+
+{% block page_title %}Detalle de Lección{% endblock %}
+{% block page_subtitle %}{{ leccion.categoria }}{% endblock %}
+
+{% block content %}
+
+<button class="back-button" onclick="history.back()">
+    <i class="fas fa-arrow-left"></i> Volver
+</button>
+
+<div class="detail-container">
+    <div class="detail-header">
+        <h1 class="detail-title">{{ leccion.titulo }}</h1>
+        <div class="detail-meta">
+            <span><i class="far fa-calendar-alt"></i> {{ leccion.fecha_creacion|date:"d/m/Y" }}</span>
+            <span><i class="fas fa-tag"></i> {{ leccion.categoria }}</span>
+            <span><i class="fas fa-user"></i> Responsable: {{ leccion.responsable|default:"Equipo TI" }}</span>
+        </div>
+    </div>
+
+    <div class="detail-section">
+        <h4><i class="fas fa-exclamation-triangle"></i> Problema Identificado</h4>
+        <p>{{ leccion.problema }}</p>
+    </div>
+
+    <div class="detail-section">
+        <h4><i class="fas fa-search"></i> Causa del Problema</h4>
+        <p>{{ leccion.causa }}</p>
+    </div>
+
+    <div class="detail-section">
+        <h4><i class="fas fa-wrench"></i> Solución Aplicada</h4>
+        <p>{{ leccion.solucion|linebreaksbr }}</p>
+    </div>
+
+    <div class="detail-section">
+        <h4><i class="fas fa-check-circle"></i> Resultado Obtenido</h4>
+        <p>{{ leccion.resultado }}</p>
+    </div>
+</div>
+
+{% endblock %}

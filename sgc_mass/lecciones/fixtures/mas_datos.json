@@ -1,0 +1,170 @@
+[
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 19,
+    "fields": {
+      "titulo": "Router de tienda no asigna IP a los equipos",
+      "categoria": "Redes",
+      "problema": "Los POS y computadoras no obtienen dirección IP, error 'No se pudo obtener dirección IP'",
+      "causa": "Servidor DHCP del router deshabilitado o rango de IPs agotado",
+      "solucion": "1. Acceder al router por IP 192.168.1.1\n2. Verificar que el servidor DHCP esté activado\n3. Ampliar rango de IPs disponibles\n4. Reiniciar el servicio DHCP\n5. Renovar IP en equipos con ipconfig /renew",
+      "resultado": "Todos los equipos obtuvieron IP correctamente. Red operativa.",
+      "responsable": "María López",
+      "fecha_creacion": "2026-05-22"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 20,
+    "fields": {
+      "titulo": "Pérdida de paquetes en red de tienda",
+      "categoria": "Redes",
+      "problema": "Los POS pierden conexión intermitentemente con el servidor central",
+      "causa": "Cable de red categoría 5e dañado o conector RJ45 mal crimpado",
+      "solucion": "1. Realizar prueba de ping continua: ping 10.10.0.1 -t\n2. Identificar pérdida de paquetes\n3. Reemplazar cable de red por categoría 6\n4. Verificar conector RJ45 con tester de red\n5. Verificar velocidad de enlace en switch",
+      "resultado": "Pérdida de paquetes eliminada. Red estable al 100%",
+      "responsable": "María López",
+      "fecha_creacion": "2026-05-20"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 21,
+    "fields": {
+      "titulo": "Disco duro de computadora administrativa con sectores defectuosos",
+      "categoria": "Hardware",
+      "problema": "La PC de administración se congela y tarda en abrir archivos",
+      "causa": "Disco duro HDD con sectores defectuosos detectados por CHKDSK",
+      "solucion": "1. Ejecutar CHKDSK C: /f /r desde CMD como administrador\n2. Respaldar información crítica inmediatamente\n3. Reemplazar HDD por SSD de 240GB\n4. Clonar sistema operativo con Macrium Reflect\n5. Instalar nuevo SSD y verificar rendimiento",
+      "resultado": "PC operativa. Tiempo de arranque reducido de 3 minutos a 20 segundos",
+      "responsable": "Carlos Ruiz",
+      "fecha_creacion": "2026-05-18"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 22,
+    "fields": {
+      "titulo": "Impresora láser no imprime en red",
+      "categoria": "Hardware",
+      "problema": "La impresora láser HP no recibe trabajos de impresión desde ninguna computadora",
+      "causa": "Dirección IP de impresora cambiada por reinicio del router y conflicto de puerto",
+      "solucion": "1. Verificar IP actual de la impresora desde panel de control\n2. Imprimir página de configuración\n3. Configurar IP fija en la impresora\n4. Agregar impresora por IP en cada equipo\n5. Probar impresión de página de prueba",
+      "resultado": "Impresora funcionando correctamente desde todos los equipos",
+      "responsable": "Carlos Ruiz",
+      "fecha_creacion": "2026-05-15"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 23,
+    "fields": {
+      "titulo": "Recuperación de base de datos borrada accidentalmente",
+      "categoria": "Base de Datos",
+      "problema": "Un operador eliminó una tabla completa de productos del sistema POS",
+      "causa": "Ejecución de comando DELETE sin WHERE en consulta SQL",
+      "solucion": "1. Detener servicio POS inmediatamente\n2. Restaurar backup automático de la noche anterior\n3. Recuperar transacciones del día desde logs binarios\n4. Ejecutar mysqlbinlog para recuperar cambios\n5. Verificar integridad de datos restaurados",
+      "resultado": "Base de datos recuperada al 100%. Pérdida de datos: 0 registros",
+      "responsable": "Ana Torres",
+      "fecha_creacion": "2026-05-14"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 24,
+    "fields": {
+      "titulo": "Ataque de ransomware en equipo de caja",
+      "categoria": "Seguridad",
+      "problema": "Archivos del POS aparecen con extensión .encrypted y no abren",
+      "causa": "Usuario abrió archivo adjunto malicioso de correo phishing",
+      "solucion": "1. Aislar equipo desconectando red\n2. Identificar cepa de ransomware\n3. Restaurar desde backup limpio\n4. Formatear equipo e instalar imagen base\n5. Cambiar todas las contraseñas del usuario\n6. Revisar otros equipos en la misma red",
+      "resultado": "Equipo restaurado. No se propagó a otros equipos",
+      "responsable": "Jorge Ramírez",
+      "fecha_creacion": "2026-05-12"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 25,
+    "fields": {
+      "titulo": "Actualización de Windows causa error en software POS",
+      "categoria": "Software",
+      "problema": "Después de actualizar Windows, el POS muestra error de compatibilidad",
+      "causa": "Actualización KB5034441 cambió librerías .NET que usa el POS",
+      "solucion": "1. Identificar actualización problemática en Historial de Windows Update\n2. Desinstalar KB5034441 desde Panel de Control\n3. Configurar política para no reinstalar automáticamente\n4. Probar funcionamiento del POS\n5. Reportar incompatibilidad al proveedor",
+      "resultado": "POS funcionando correctamente. Actualización excluida permanentemente",
+      "responsable": "Ana Torres",
+      "fecha_creacion": "2026-05-10"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 26,
+    "fields": {
+      "titulo": "Switch PoE no alimenta cámaras de seguridad",
+      "categoria": "Redes",
+      "problema": "Las cámaras IP no tienen video, solo encienden por la noche",
+      "causa": "Presupuesto de energía PoE del switch insuficiente para todas las cámaras",
+      "solucion": "1. Verificar consumo energético de cada cámara\n2. Calcular potencia total requerida\n3. Desconectar cámaras no prioritarias temporalmente\n4. Reemplazar switch por modelo con mayor presupuesto PoE\n5. Instalar fuentes de alimentación auxiliares",
+      "resultado": "Todas las cámaras operativas 24/7. Switch nuevo instalado",
+      "responsable": "María López",
+      "fecha_creacion": "2026-05-08"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 27,
+    "fields": {
+      "titulo": "Teclado de POS no responde en horario de mañana",
+      "categoria": "Hardware",
+      "problema": "El teclado USB del POS deja de funcionar solo en las mañanas",
+      "causa": "Condensación por humedad nocturna en el conector USB",
+      "solucion": "1. Desconectar y secar con aire comprimido\n2. Aplicar spray limpiador de contactos\n3. Cambiar a puerto USB diferente\n4. Instalar deshumidificador en el área\n5. Reemplazar teclado si persiste",
+      "resultado": "Teclado funcionando correctamente. Problema resuelto",
+      "responsable": "Carlos Ruiz",
+      "fecha_creacion": "2026-05-05"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 28,
+    "fields": {
+      "titulo": "Error de memoria insuficiente en servidor de base de datos",
+      "categoria": "Base de Datos",
+      "problema": "El servidor MySQL se cae diariamente al mediodía por falta de memoria",
+      "causa": "Configuración de buffer pool demasiado alta para la RAM disponible",
+      "solucion": "1. Revisar uso de memoria con SHOW VARIABLES\n2. Reducir innodb_buffer_pool_size de 8GB a 4GB\n3. Limitar conexiones simultáneas max_connections=150\n4. Agregar swap de 4GB al sistema\n5. Reiniciar servicio MySQL\n6. Monitorear por 48 horas",
+      "resultado": "Servidor estable sin caídas por 7 días consecutivos",
+      "responsable": "Ana Torres",
+      "fecha_creacion": "2026-05-03"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 29,
+    "fields": {
+      "titulo": "Firewall bloquea tráfico legítimo de POS",
+      "categoria": "Seguridad",
+      "problema": "Los POS no pueden comunicarse con el servidor central después de actualizar firewall",
+      "causa": "Nueva regla de firewall bloquea puerto 443 saliente",
+      "solucion": "1. Revisar logs del firewall\n2. Identificar regla que bloquea el tráfico\n3. Crear regla de excepción para IPs de POS\n4. Permitir puerto 443 TCP saliente\n5. Probar conectividad con telnet\n6. Guardar configuración y aplicar",
+      "resultado": "POS con conectividad restaurada en 15 minutos",
+      "responsable": "Jorge Ramírez",
+      "fecha_creacion": "2026-05-01"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 30,
+    "fields": {
+      "titulo": "Software POS no abre después de instalar antivirus nuevo",
+      "categoria": "Software",
+      "problema": "El ejecutable del POS no se abre, solo aparece en el administrador de tareas",
+      "causa": "Antivirus detecta falsos positivos y bloquea el proceso",
+      "solucion": "1. Abrir configuración del antivirus\n2. Revisar cuarentena\n3. Restaurar archivo ejecutable\n4. Agregar carpeta del POS a exclusiones\n5. Agregar proceso POS.exe a lista blanca\n6. Ejecutar POS nuevamente",
+      "resultado": "POS funcionando sin bloqueos. Excepciones configuradas",
+      "responsable": "Ana Torres",
+      "fecha_creacion": "2026-04-28"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{% extends 'lecciones/base.html' %}
+
+{% block title %}Páginas Amarillas{% endblock %}
+
+{% block page_title %}Páginas Amarillas{% endblock %}
+{% block page_subtitle %}Directorio de expertos técnicos de Tiendas Mass{% endblock %}
+
+{% block content %}
+
+<div class="experts-grid">
+    {% for experto in expertos %}
+    <div class="expert-card">
+        <div class="expert-avatar">
+            <i class="fas fa-user"></i>
+        </div>
+        <h3 class="expert-name">{{ experto.nombre }}</h3>
+        <p class="expert-area">{{ experto.area }}</p>
+        <p class="expert-email"><i class="fas fa-envelope"></i> {{ experto.email }}</p>
+        <p class="expert-email"><i class="fas fa-calendar-alt"></i> {{ experto.antiguedad }} años de experiencia</p>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

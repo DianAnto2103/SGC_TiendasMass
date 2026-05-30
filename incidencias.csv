@@ -1,0 +1,74 @@
+fecha,tipo_incidencia,subcategoria,tiempo_resolucion_minutos,tecnico,tienda,gravedad,dia_semana,hora,tiempo_espera_inicial_min,tiempo_diagnostico_min,tiempo_solucion_min,numero_reasignaciones,satisfaccion_usuario
+2026-01-05,POS,No enciende,45,Juan Pérez,Tienda Mass Norte,Alta,Lunes,10:30,10,15,20,1,3
+2026-01-07,Redes,Wi-Fi caído,30,María López,Tienda Mass Sur,Media,Miércoles,14:15,5,10,15,0,4
+2026-01-10,Hardware,Impresora no imprime,25,Carlos Ruiz,Tienda Mass Este,Baja,Sábado,09:45,3,7,15,0,5
+2026-01-12,Base de Datos,Sincronización falla,90,Ana Torres,Tienda Mass Centro,Alta,Lunes,08:20,20,30,40,2,2
+2026-01-15,POS,Lector no escanea,60,Juan Pérez,Tienda Mass Oeste,Alta,Jueves,16:00,15,20,25,1,3
+2026-01-18,Software,Actualización fallida,40,Roberto Sánchez,Tienda Mass Norte,Media,Domingo,22:00,5,10,25,0,4
+2026-01-20,Seguridad,Intento de hackeo,55,Jorge Ramírez,Tienda Mass Sur,Alta,Martes,03:30,10,15,30,1,3
+2026-01-22,POS,Ticket no imprime,35,Juan Pérez,Tienda Mass Centro,Media,Jueves,12:00,5,10,20,0,4
+2026-01-25,Redes,VPN caída,50,María López,Tienda Mass Este,Alta,Domingo,07:00,15,15,20,1,3
+2026-01-28,Hardware,Monitor parpadea,20,Carlos Ruiz,Tienda Mass Oeste,Baja,Martes,15:30,3,7,10,0,5
+2026-01-30,Base de Datos,Backup fallido,85,Ana Torres,Tienda Mass Norte,Alta,Viernes,23:00,20,25,40,2,2
+2026-02-02,POS,No lee tarjetas,40,Juan Pérez,Tienda Mass Sur,Media,Lunes,18:45,8,12,20,0,4
+2026-02-04,Software,Programa lento,35,Roberto Sánchez,Tienda Mass Centro,Baja,Martes,11:00,5,10,20,0,5
+2026-02-06,Seguridad,Phishing detectado,60,Jorge Ramírez,Tienda Mass Este,Alta,Jueves,09:00,10,20,30,1,3
+2026-02-08,POS,Se reinicia solo,55,Juan Pérez,Tienda Mass Oeste,Alta,Lunes,14:00,15,20,20,1,3
+2026-02-10,Redes,Switch no funciona,45,María López,Tienda Mass Norte,Media,Sábado,08:00,10,15,20,1,4
+2026-02-12,Hardware,Parlantes no suenan,30,Carlos Ruiz,Tienda Mass Sur,Baja,Viernes,19:00,5,10,15,0,5
+2026-02-15,Base de Datos,Consulta muy lenta,95,Ana Torres,Tienda Mass Centro,Alta,Lunes,10:00,25,30,40,2,2
+2026-02-17,POS,Pantalla azul,50,Juan Pérez,Tienda Mass Este,Alta,Martes,13:00,12,18,20,1,3
+2026-02-19,Software,Error al imprimir,45,Roberto Sánchez,Tienda Mass Oeste,Media,Jueves,16:30,10,15,20,0,4
+2026-02-21,Seguridad,Acceso no autorizado,70,Jorge Ramírez,Tienda Mass Norte,Alta,Sábado,02:00,15,25,30,2,2
+2026-02-23,POS,Teclado no responde,65,Juan Pérez,Tienda Mass Sur,Alta,Martes,09:00,20,25,20,1,3
+2026-02-25,Redes,Internet lento,35,María López,Tienda Mass Centro,Media,Domingo,20:00,5,10,20,0,4
+2026-02-27,Hardware,Puertos USB no funcionan,28,Carlos Ruiz,Tienda Mass Este,Baja,Martes,08:30,3,10,15,0,5
+2026-03-02,Base de Datos,Bloqueo de tabla,80,Ana Torres,Tienda Mass Oeste,Alta,Viernes,15:00,15,25,40,1,3
+2026-03-04,POS,No conecta a red,42,Juan Pérez,Tienda Mass Norte,Media,Miércoles,11:30,8,14,20,0,4
+2026-03-06,Software,No abre archivos,38,Roberto Sánchez,Tienda Mass Sur,Baja,Martes,09:15,5,13,20,0,5
+2026-03-08,Seguridad,Ransomware,65,Jorge Ramírez,Tienda Mass Centro,Alta,Martes,01:00,15,20,30,2,2
+2026-03-10,POS,No emite sonido,58,Juan Pérez,Tienda Mass Este,Alta,Domingo,16:00,15,23,20,1,3
+2026-03-12,Redes,Router reinicia solo,40,María López,Tienda Mass Oeste,Media,Sábado,13:00,8,12,20,0,4
+2026-03-15,Hardware,Ruido extraño en PC,32,Carlos Ruiz,Tienda Mass Norte,Baja,Jueves,10:00,5,12,15,0,5
+2026-03-17,Base de Datos,Corrupción de datos,88,Ana Torres,Tienda Mass Sur,Alta,Martes,14:30,20,28,40,2,2
+2026-03-19,POS,Se apaga de repente,48,Juan Pérez,Tienda Mass Centro,Media,Jueves,19:00,10,18,20,1,4
+2026-03-21,Software,No se actualiza,42,Roberto Sánchez,Tienda Mass Este,Baja,Lunes,07:00,5,17,20,0,5
+2026-03-23,Seguridad,Pérdida de datos,75,Jorge Ramírez,Tienda Mass Oeste,Alta,Jueves,04:00,15,30,30,2,2
+2026-03-25,POS,Display roto,62,Juan Pérez,Tienda Mass Norte,Alta,Viernes,08:00,20,22,20,1,3
+2026-03-27,Redes,IP duplicada,38,María López,Tienda Mass Sur,Media,Lunes,09:30,8,10,20,0,4
+2026-03-29,Hardware,No reconoce USB,22,Carlos Ruiz,Tienda Mass Centro,Baja,Domingo,20:00,3,9,10,0,5
+2026-03-31,Base de Datos,Error de respaldo,92,Ana Torres,Tienda Mass Este,Alta,Miércoles,22:00,25,27,40,2,2
+2026-04-02,POS,No sincroniza precios,44,Juan Pérez,Tienda Mass Oeste,Media,Jueves,13:00,8,16,20,0,4
+2026-04-04,Software,Plugins no cargan,36,Roberto Sánchez,Tienda Mass Norte,Baja,Martes,11:00,5,11,20,0,5
+2026-04-06,Seguridad,Acceso denegado,58,Jorge Ramírez,Tienda Mass Sur,Alta,Sábado,17:00,10,18,30,1,3
+2026-04-08,POS,Falla de memoria,52,Juan Pérez,Tienda Mass Centro,Alta,Lunes,15:30,15,17,20,1,3
+2026-04-10,Redes,Latencia alta,42,María López,Tienda Mass Este,Media,Viernes,18:00,8,14,20,0,4
+2026-04-12,Hardware,Sobrecalentamiento,26,Carlos Ruiz,Tienda Mass Oeste,Baja,Domingo,14:00,3,8,15,0,5
+2026-04-15,Base de Datos,Tiempo de espera,82,Ana Torres,Tienda Mass Norte,Alta,Jueves,11:00,15,27,40,1,3
+2026-04-17,POS,Error de lectura,46,Juan Pérez,Tienda Mass Sur,Media,Sábado,12:30,10,16,20,0,4
+2026-04-19,Software,No guarda cambios,40,Roberto Sánchez,Tienda Mass Centro,Baja,Lunes,09:00,5,15,20,0,5
+2026-04-21,Seguridad,Ataque DDoS,68,Jorge Ramírez,Tienda Mass Este,Alta,Domingo,03:00,15,23,30,2,2
+2026-04-23,POS,Touch no funciona,56,Juan Pérez,Tienda Mass Oeste,Alta,Sábado,10:00,12,24,20,1,3
+2026-04-25,Redes,No hay señal WiFi,36,María López,Tienda Mass Norte,Media,Martes,21:00,5,11,20,0,4
+2026-04-27,Hardware,Placa madre dañada,24,Carlos Ruiz,Tienda Mass Sur,Baja,Viernes,07:00,3,11,10,0,5
+2026-04-29,Base de Datos,Replicación falla,86,Ana Torres,Tienda Mass Centro,Alta,Jueves,20:00,20,26,40,2,2
+2026-05-02,POS,Cajón no abre,38,Juan Pérez,Tienda Mass Este,Media,Sábado,09:30,5,13,20,0,4
+2026-05-04,Software,No imprime tickets,32,Roberto Sánchez,Tienda Mass Oeste,Baja,Martes,08:45,3,9,20,0,5
+2026-05-05,Seguridad,Cuenta bloqueada,62,Jorge Ramírez,Tienda Mass Norte,Alta,Jueves,08:00,10,22,30,1,3
+2026-05-07,POS,Puerto serie falla,48,Juan Pérez,Tienda Mass Sur,Media,Miércoles,17:30,10,18,20,0,4
+2026-05-08,Redes,Firewall bloquea,34,María López,Tienda Mass Centro,Media,Viernes,12:00,5,9,20,0,4
+2026-05-10,Hardware,Fuente quemada,18,Carlos Ruiz,Tienda Mass Este,Baja,Domingo,19:00,2,6,10,0,5
+2026-05-11,Base de Datos,Deadlock,78,Ana Torres,Tienda Mass Oeste,Alta,Sábado,23:30,15,23,40,1,3
+2026-05-12,POS,Error de configuración,42,Juan Pérez,Tienda Mass Norte,Media,Martes,14:00,8,14,20,0,4
+2026-05-14,Software,Virus detectado,30,Roberto Sánchez,Tienda Mass Sur,Baja,Lunes,22:15,3,7,20,0,5
+2026-05-15,Seguridad,Información filtrada,55,Jorge Ramírez,Tienda Mass Centro,Alta,Domingo,01:30,10,15,30,1,3
+2026-05-16,POS,Sistema congelado,50,Juan Pérez,Tienda Mass Este,Alta,Jueves,20:00,12,18,20,1,3
+2026-05-18,Redes,Interferencia señal,32,María López,Tienda Mass Oeste,Media,Viernes,15:00,5,7,20,0,4
+2026-05-19,Hardware,Ventilador ruidoso,20,Carlos Ruiz,Tienda Mass Norte,Baja,Sábado,11:00,3,7,10,0,5
+2026-05-20,Base de Datos,Pérdida de conexión,75,Ana Torres,Tienda Mass Sur,Alta,Domingo,06:00,15,20,40,1,3
+2026-05-21,POS,No enciende,40,Juan Pérez,Tienda Mass Centro,Media,Lunes,10:00,8,12,20,0,4
+2026-05-22,Software,Error de instalación,28,Roberto Sánchez,Tienda Mass Este,Baja,Jueves,13:00,3,5,20,0,5
+2026-05-22,Seguridad,Script malicioso,50,Jorge Ramírez,Tienda Mass Oeste,Alta,Viernes,02:00,10,10,30,1,3
+2026-05-23,POS,No reconoce usuario,35,Juan Pérez,Tienda Mass Norte,Media,Sábado,09:00,5,10,20,0,4
+2026-05-23,Redes,Cable dañado,25,María López,Tienda Mass Sur,Baja,Domingo,16:00,3,7,15,0,5
+2026-05-23,Hardware,Disco duro lleno,15,Carlos Ruiz,Tienda Mass Centro,Baja,Sábado,12:00,2,3,10,0,5

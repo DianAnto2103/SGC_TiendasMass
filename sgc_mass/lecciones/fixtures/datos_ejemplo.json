@@ -1,0 +1,302 @@
+[
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 1,
+    "fields": {
+      "titulo": "POS no enciende - No hay luz en la pantalla",
+      "categoria": "POS",
+      "problema": "La caja registradora no muestra imagen, no emite sonido y los leds no se encienden",
+      "causa": "Cable de poder suelto, fuente de poder dañada o toma corriente sin energia",
+      "solucion": "1. Verificar el cable de poder\n2. Probar otro tomacorriente\n3. Revisar la fuente de poder\n4. Reemplazar fuente si es necesario",
+      "resultado": "POS operativo en 15 minutos",
+      "responsable": "Juan Pérez",
+      "fecha_creacion": "2026-05-15"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 2,
+    "fields": {
+      "titulo": "POS se reinicia solo constantemente",
+      "categoria": "POS",
+      "problema": "El POS se apaga y reinicia solo cada 10-15 minutos",
+      "causa": "Sobrecalentamiento por acumulacion de polvo o fuente insuficiente",
+      "solucion": "1. Limpiar el polvo con aire comprimido\n2. Verificar el ventilador\n3. Revisar voltaje de la fuente\n4. Reemplazar fuente si es necesario",
+      "resultado": "POS estable y funcionando sin reinicios",
+      "responsable": "Juan Pérez",
+      "fecha_creacion": "2026-05-10"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 3,
+    "fields": {
+      "titulo": "Impresora fiscal no imprime tickets",
+      "categoria": "HW",
+      "problema": "La impresora fiscal no responde al comando de impresion",
+      "causa": "Papel atascado o cabezal sucio",
+      "solucion": "1. Abrir tapa y retirar papel atascado\n2. Limpiar cabezal con alcohol\n3. Cargar papel nuevo\n4. Probar impresion de prueba",
+      "resultado": "Impresora funcionando correctamente",
+      "responsable": "Carlos Ruiz",
+      "fecha_creacion": "2026-05-14"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 4,
+    "fields": {
+      "titulo": "Red Wi-Fi de tienda caida",
+      "categoria": "RED",
+      "problema": "El Wi-Fi para clientes no funciona, no aparece la red",
+      "causa": "Router apagado o configuracion DHCP corrupta",
+      "solucion": "1. Verificar que el router este encendido\n2. Reiniciar el router\n3. Verificar servidor DHCP\n4. Cambiar canal Wi-Fi si hay interferencia",
+      "resultado": "Wi-Fi restaurado en 10 minutos",
+      "responsable": "Maria López",
+      "fecha_creacion": "2026-05-08"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 5,
+    "fields": {
+      "titulo": "Error de sincronizacion de ventas con servidor central",
+      "categoria": "BD",
+      "problema": "Las ventas del dia no se reflejan en el sistema central",
+      "causa": "Fallo en conexion VPN o servicio de sincronizacion detenido",
+      "solucion": "1. Verificar conectividad VPN\n2. Reiniciar servicio de sincronizacion\n3. Revisar logs de error\n4. Forzar sincronizacion manual",
+      "resultado": "Sincronizacion exitosa",
+      "responsable": "Ana Torres",
+      "fecha_creacion": "2026-05-06"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 6,
+    "fields": {
+      "titulo": "Lector de codigo de barras no escanea",
+      "categoria": "HW",
+      "problema": "El lector no detecta los codigos de barras",
+      "causa": "Lente sucio o cable USB dañado",
+      "solucion": "1. Limpiar el lente\n2. Verificar conexion USB\n3. Probar en otro puerto\n4. Reemplazar cable si es necesario",
+      "resultado": "Lector operativo",
+      "responsable": "Carlos Ruiz",
+      "fecha_creacion": "2026-05-09"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 7,
+    "fields": {
+      "titulo": "VPN caida entre tienda y sede central",
+      "categoria": "RED",
+      "problema": "La tienda no puede comunicarse con la sede central",
+      "causa": "Certificado VPN expirado o credenciales incorrectas",
+      "solucion": "1. Verificar estado del servicio VPN\n2. Renovar certificado VPN\n3. Verificar credenciales\n4. Reiniciar el servicio VPN",
+      "resultado": "VPN restablecida",
+      "responsable": "Maria López",
+      "fecha_creacion": "2026-05-20"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 8,
+    "fields": {
+      "titulo": "Backup automatico fallo - No hay respaldo del dia",
+      "categoria": "BD",
+      "problema": "El backup programado no se completo",
+      "causa": "Disco de destino sin espacio",
+      "solucion": "1. Verificar espacio en disco\n2. Liberar espacio eliminando backups antiguos\n3. Reiniciar servicio de backup\n4. Ejecutar backup manual",
+      "resultado": "Backup manual ejecutado exitosamente",
+      "responsable": "Ana Torres",
+      "fecha_creacion": "2026-05-13"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 9,
+    "fields": {
+      "titulo": "Actualizacion de software POS - Error de compatibilidad",
+      "categoria": "SW",
+      "problema": "Despues de actualizar, el sistema no inicia",
+      "causa": "Version incompatible con hardware antiguo",
+      "solucion": "1. Revisar logs de error\n2. Revertir a version anterior\n3. Reportar incompatibilidad al proveedor\n4. Esperar parche oficial",
+      "resultado": "Se revirtio a version anterior",
+      "responsable": "Ana Torres",
+      "fecha_creacion": "2026-05-19"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 10,
+    "fields": {
+      "titulo": "Intento de acceso no autorizado a red de tienda",
+      "categoria": "SEG",
+      "problema": "Se detectaron intentos de acceso no autorizados",
+      "causa": "Wi-Fi con contraseña debil",
+      "solucion": "1. Bloquear MAC del dispositivo sospechoso\n2. Cambiar contraseña del Wi-Fi\n3. Usar WPA2-AES\n4. Reportar incidente a seguridad",
+      "resultado": "Acceso bloqueado. Red mas segura",
+      "responsable": "Carlos Ruiz",
+      "fecha_creacion": "2026-05-16"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 11,
+    "fields": {
+      "titulo": "Computadora administrativa lenta",
+      "categoria": "HW",
+      "problema": "La PC del administrador tarda mucho en abrir programas",
+      "causa": "Disco duro lleno o poca memoria RAM",
+      "solucion": "1. Liberar espacio en disco\n2. Eliminar archivos temporales\n3. Desinstalar programas no usados\n4. Considerar ampliar RAM",
+      "resultado": "PC recupero rendimiento",
+      "responsable": "Carlos Ruiz",
+      "fecha_creacion": "2026-05-17"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 12,
+    "fields": {
+      "titulo": "Monitor POS parpadea o muestra lineas",
+      "categoria": "HW",
+      "problema": "La pantalla del POS parpadea constantemente",
+      "causa": "Cable VGA suelto o tarjeta de video dañada",
+      "solucion": "1. Verificar conexion del cable\n2. Probar con otro cable\n3. Actualizar drivers de video\n4. Reemplazar tarjeta de video si es necesario",
+      "resultado": "Pantalla estable",
+      "responsable": "Carlos Ruiz",
+      "fecha_creacion": "2026-05-11"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 13,
+    "fields": {
+      "titulo": "Switch de tienda no funciona",
+      "categoria": "RED",
+      "problema": "Ningun equipo tiene red en la tienda",
+      "causa": "Switch sin energia o dañado",
+      "solucion": "1. Verificar que tenga luz de energia\n2. Reiniciar el switch\n3. Probar otro puerto\n4. Reemplazar switch si es necesario",
+      "resultado": "Red local restaurada",
+      "responsable": "Maria López",
+      "fecha_creacion": "2026-05-02"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 14,
+    "fields": {
+      "titulo": "Error de conexion con servidor central",
+      "categoria": "RED",
+      "problema": "POS opera en modo offline",
+      "causa": "Cable de red dañado",
+      "solucion": "1. Verificar cable de red\n2. Probar con otro cable\n3. Reiniciar switch\n4. Verificar VPN",
+      "resultado": "Conexion restaurada",
+      "responsable": "Maria López",
+      "fecha_creacion": "2026-05-12"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 15,
+    "fields": {
+      "titulo": "Restauracion de base de datos desde backup",
+      "categoria": "BD",
+      "problema": "Se necesita restaurar BD por corrupcion",
+      "causa": "Procedimiento no documentado",
+      "solucion": "1. Identificar backup valido\n2. Detener servicio BD\n3. Ejecutar comando restore\n4. Verificar integridad",
+      "resultado": "Base de datos restaurada",
+      "responsable": "Ana Torres",
+      "fecha_creacion": "2026-05-01"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 16,
+    "fields": {
+      "titulo": "Parche de seguridad bloquea sistema POS",
+      "categoria": "SW",
+      "problema": "Software POS deja de funcionar tras actualizacion",
+      "causa": "Actualizacion de Windows incompatible",
+      "solucion": "1. Desinstalar actualizacion\n2. Configurar para no reinstalarla\n3. Reportar al proveedor",
+      "resultado": "POS recuperado",
+      "responsable": "Ana Torres",
+      "fecha_creacion": "2026-05-07"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 17,
+    "fields": {
+      "titulo": "Phishing a personal de tienda",
+      "categoria": "SEG",
+      "problema": "Correo solicitando credenciales del sistema POS",
+      "causa": "Campaña de phishing",
+      "solucion": "1. Verificar que no ingresaron datos\n2. Bloquear remitente\n3. Alertar al personal\n4. Capacitar en seguridad",
+      "resultado": "No hubo victimas",
+      "responsable": "Carlos Ruiz",
+      "fecha_creacion": "2026-05-21"
+    }
+  },
+  {
+    "model": "lecciones.leccionaprendida",
+    "pk": 18,
+    "fields": {
+      "titulo": "Usuario olvido contraseña del POS",
+      "categoria": "SEG",
+      "problema": "Cajero no puede acceder al sistema",
+      "causa": "Falta de procedimiento claro",
+      "solucion": "1. Supervisor verifica identidad\n2. Solicita reseteo a TI\n3. TI genera contraseña temporal\n4. Usuario debe cambiar al ingresar",
+      "resultado": "Procedimiento estandarizado",
+      "responsable": "Juan Pérez",
+      "fecha_creacion": "2026-05-04"
+    }
+  },
+  {
+    "model": "lecciones.experto",
+    "pk": 1,
+    "fields": {
+      "nombre": "Juan Carlos Pérez Mendoza",
+      "area": "Sistemas POS",
+      "expertise": "Configuracion y solucion de errores en sistemas POS. Experto en cajas registradoras NCR, IBM SurePOS",
+      "email": "juan.perez@tiendasmass.com",
+      "antiguedad": 12,
+      "disponible": true
+    }
+  },
+  {
+    "model": "lecciones.experto",
+    "pk": 2,
+    "fields": {
+      "nombre": "María Fernanda López Torres",
+      "area": "Redes y Conectividad",
+      "expertise": "Diagnostico de fallas de red, VPN, conectividad entre tiendas. Certificada CCNA",
+      "email": "maria.lopez@tiendasmass.com",
+      "antiguedad": 9,
+      "disponible": true
+    }
+  },
+  {
+    "model": "lecciones.experto",
+    "pk": 3,
+    "fields": {
+      "nombre": "Carlos Andrés Ruiz García",
+      "area": "Hardware y Mantenimiento",
+      "expertise": "Reparacion de lectores, impresoras fiscales Epson y Hasar, cajas registradoras",
+      "email": "carlos.ruiz@tiendasmass.com",
+      "antiguedad": 10,
+      "disponible": true
+    }
+  },
+  {
+    "model": "lecciones.experto",
+    "pk": 4,
+    "fields": {
+      "nombre": "Ana Lucía Torres Vásquez",
+      "area": "Bases de Datos y Backups",
+      "expertise": "Administracion de MySQL, SQL Server, backups, recuperacion de informacion",
+      "email": "ana.torres@tiendasmass.com",
+      "antiguedad": 7,
+      "disponible": true
+    }
+  }
+]
