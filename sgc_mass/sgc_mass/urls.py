@@ -24,4 +24,5 @@ urlpatterns = [
     path('categoria/<str:categoria>/', views.categoria_view, name='categoria'),
     path('leccion/<int:leccion_id>/', views.leccion_detalle, name='leccion_detalle'),
     path('expertos/', views.expertos_view, name='experts'),
+    path('dashboard-bi/', views.dashboard_bi, name='dashboard_bi'),
 ]

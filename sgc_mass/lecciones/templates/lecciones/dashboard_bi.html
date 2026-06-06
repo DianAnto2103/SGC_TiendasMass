@@ -1,0 +1,117 @@
+{% extends 'lecciones/base.html' %}
+
+{% block title %}Dashboard BI - SGC Mass{% endblock %}
+
+{% block page_title %}Centro de Análisis{% endblock %}
+{% block page_subtitle %}Métricas clave y dashboard interactivo{% endblock %}
+
+{% block content %}
+
+<!-- Grid de 2 columnas -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px;">
+    
+    <!-- Columna izquierda: KPIs y explicación -->
+    <div style="background: white; border-radius: 16px; padding: 24px; border: 1px solid #e2e8f0;">
+        <h3 style="margin-bottom: 20px; font-size: 18px; color: #0A2B4E;">
+            <i class="fas fa-chart-simple"></i> ¿Qué muestra este dashboard?
+        </h3>
+        <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 16px; display: flex; align-items: center; gap: 12px;">
+                <div style="width: 32px; height: 32px; background: #FFD100; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-chart-bar" style="color: #0A2B4E;"></i>
+                </div>
+                <div><strong>Incidencias por categoría</strong><br>POS, Redes, Hardware, etc.</div>
+            </li>
+            <li style="margin-bottom: 16px; display: flex; align-items: center; gap: 12px;">
+                <div style="width: 32px; height: 32px; background: #FFD100; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-chart-line" style="color: #0A2B4E;"></i>
+                </div>
+                <div><strong>Evolución mensual</strong><br>Tendencia de incidencias en el tiempo</div>
+            </li>
+            <li style="margin-bottom: 16px; display: flex; align-items: center; gap: 12px;">
+                <div style="width: 32px; height: 32px; background: #FFD100; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-store" style="color: #0A2B4E;"></i>
+                </div>
+                <div><strong>Tiendas con más incidencias</strong><br>Identificar puntos críticos</div>
+            </li>
+            <li style="margin-bottom: 16px; display: flex; align-items: center; gap: 12px;">
+                <div style="width: 32px; height: 32px; background: #FFD100; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-tachometer-alt" style="color: #0A2B4E;"></i>
+                </div>
+                <div><strong>Antes vs Después del SGC</strong><br>Reducción del 30% en tiempo de resolución</div>
+            </li>
+        </ul>
+        <div style="margin-top: 20px; padding: 12px; background: #FFF8E0; border-radius: 8px; border-left: 3px solid #FFD100;">
+            <i class="fas fa-lightbulb" style="color: #0A2B4E;"></i>
+            <strong style="font-size: 13px;"> Insight clave:</strong>
+            <span style="font-size: 13px;"> Las incidencias de POS representan el 40% del total. Enfocar capacitación allí.</span>
+        </div>
+    </div>
+
+    <!-- Columna derecha: KPIs numéricos -->
+    <div style="display: grid; grid-template-rows: repeat(2, 1fr); gap: 24px;">
+        <!-- Fila 1: KPIs principales -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div class="stat-card" style="text-align: center;">
+                <div class="number">150</div>
+                <div class="label">Total Incidencias</div>
+                <div style="font-size: 11px; color: #10B981; margin-top: 4px;">↑ 12% vs mes anterior</div>
+            </div>
+            <div class="stat-card" style="text-align: center;">
+                <div class="number">45</div>
+                <div class="label">Tiempo Promedio (min)</div>
+                <div style="font-size: 11px; color: #10B981; margin-top: 4px;">↓ 15% vs mes anterior</div>
+            </div>
+            <div class="stat-card" style="text-align: center;">
+                <div class="number">68%</div>
+                <div class="label">Documentado en SGC</div>
+                <div style="font-size: 11px; color: #F59E0B; margin-top: 4px;">Meta: 80%</div>
+            </div>
+            <div class="stat-card" style="text-align: center;">
+                <div class="number">-30%</div>
+                <div class="label">Reducción esperada</div>
+                <div style="font-size: 11px; color: #10B981; margin-top: 4px;">Meta a 3 meses</div>
+            </div>
+        </div>
+        
+        <!-- Fila 2: Top técnicos -->
+        <div style="background: white; border-radius: 16px; padding: 20px; border: 1px solid #e2e8f0;">
+            <h4 style="margin-bottom: 16px; font-size: 14px;"><i class="fas fa-trophy"></i> Top Técnicos (lecciones documentadas)</h4>
+            <div style="margin-bottom: 12px;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+                    <span>Juan Pérez</span>
+                    <span><strong>12</strong> lecciones</span>
+                </div>
+                <div style="background: #e2e8f0; border-radius: 10px; height: 6px;"><div style="width: 80%; background: #FFD100; border-radius: 10px; height: 6px;"></div></div>
+            </div>
+            <div style="margin-bottom: 12px;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+                    <span>María López</span>
+                    <span><strong>8</strong> lecciones</span>
+                </div>
+                <div style="background: #e2e8f0; border-radius: 10px; height: 6px;"><div style="width: 53%; background: #FFD100; border-radius: 10px; height: 6px;"></div></div>
+            </div>
+            <div style="margin-bottom: 12px;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+                    <span>Carlos Ruiz</span>
+                    <span><strong>6</strong> lecciones</span>
+                </div>
+                <div style="background: #e2e8f0; border-radius: 10px; height: 6px;"><div style="width: 40%; background: #FFD100; border-radius: 10px; height: 6px;"></div></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Dashboard Power BI -->
+<div class="powerbi-container" style="position: relative; height: 500px; width: 100%; background: white; border-radius: 16px; padding: 16px; border: 1px solid #e2e8f0; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+    <iframe 
+        width="100%" 
+        height="100%" 
+        src="https://app.powerbi.com/view?r=eyJrIjoiYTMwMGE5NDgtNjg2OC00MzRmLWFmNmItZGU5NDNkZmZhMWZiIiwidCI6IjMyMDliNTBiLWI3OWItNDNkYy05ZmM0LThkNDJjNDA2ZGQ2MSIsImMiOjR9"
+        frameborder="0" 
+        allowFullScreen="true"
+        style="border-radius: 12px; border: none;">
+    </iframe>
+</div>
+
+{% endblock %}

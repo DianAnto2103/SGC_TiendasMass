@@ -570,6 +570,14 @@
                 <a href="{% url 'dashboard' %}"><i class="fas fa-home"></i> Dashboard</a>
             </div>
 
+        <!-- Dentro del <nav> en base.html -->
+        <div class="nav-label">Analíticas</div>
+        <div class="nav-item">
+            <a href="{% url 'dashboard_bi' %}">
+                <i class="fas fa-chart-line"></i> Dashboard Power BI
+            </a>
+        </div>
+
             <div class="nav-label">Categorías</div>
             <div class="nav-item"><a href="/categoria/POS/"><i class="fas fa-cash-register"></i> POS</a></div>
             <div class="nav-item"><a href="/categoria/Redes/"><i class="fas fa-network-wired"></i> Redes</a></div>

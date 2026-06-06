@@ -1,5 +1,7 @@
 from django.shortcuts import render, get_object_or_404
+from django.template.backends import django
 from .models import LeccionAprendida, Experto
+from django.shortcuts import render
 
 def dashboard(request):
     context = {
@@ -31,3 +33,7 @@ def expertos_view(request):
         'expertos': expertos,
     }
     return render(request, 'lecciones/expertos.html', context)
+
+
+def dashboard_bi(request):
+    return render(request, 'lecciones/dashboard_bi.html')
